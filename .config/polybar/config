@@ -266,7 +266,7 @@ label-discharging = %percentage%%
 format-discharging-foreground = ${colors.primary}
 format-discharging-background = ${colors.background}
 format-discharging-underline = ${colors.primary}
-format-full-prefix = " "
+format-full-prefix = "  "
 format-full-prefix-foreground = ${colors.primary}
 
 format-full-foreground = ${colors.primary}
