@@ -23,8 +23,8 @@ bspc rule -a mpv state=floating
 bspc rule -a feh state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-bspc rule -a Zathura desktop='^3' follow=on state=tiled
-
+bspc rule -a Zathura desktop='^5' follow=on state=tiled
+bspc rule -a Code desktop='^3' follow=on state=fullscreen
 
 setxkbmap -option grp:alt_shift_toggle ar,us &
 
