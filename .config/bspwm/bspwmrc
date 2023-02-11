@@ -19,11 +19,11 @@ bspc config focus_follows_pointer true
 bspc config pointer_follows_focus true
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a firefox desktop='^2' follow=on
-bspc rule -a Mpv state=floating
-bspc rule -a Feh state=floating
+bspc rule -a mpv state=floating
+bspc rule -a feh state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-bspc rule -a Zathura state=tiled
+bspc rule -a Zathura desktop='^3' follow=on state=tiled
 
 
 setxkbmap -option grp:alt_shift_toggle ar,us &
