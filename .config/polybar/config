@@ -81,7 +81,7 @@ format-underline = ${colors.primary}
 type = internal/bspwm
 
 label-focused = %index%
-label-focused-background =  ${colors.background}
+label-focused-background = #1C1A24 
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
@@ -150,10 +150,10 @@ label-connected-foreground = ${colors.primary}
 format-connected-underline = ${colors.primary}
 label-connected = %essid%
 
-format-disconnected = <ramp-signal> <label-disconnected>
-format-disconnected-underline = ${colors.primary}
-label-disconnected =  %ifname% disconnected
-label-disconnected-foreground = ${colors.primary}
+;format-disconnected = <ramp-signal> <label-disconnected>
+;format-disconnected-underline = ${colors.primary}
+;label-disconnected =  %ifname% disconnected
+;label-disconnected-foreground = ${colors.primary}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
