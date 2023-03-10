@@ -1,7 +1,9 @@
 [colors]
-background = #2e3440
+background = #353C55
+;#2e3440
 foreground = #ffffff
-primary = #a6beef
+primary = #DDF0FD
+;#a6beef
 secondary = #5C97DF
 alert = #bd2c40
 
@@ -56,7 +58,7 @@ eursor-scroll = ns-resize
 type = internal/xwindow
 label = %title:0:30:...%
 format = <label>
-format-foreground = #a6beef
+format-foreground = ${colors.primary}
 ;#a6beef
 
 [module/xkeyboard]
@@ -81,7 +83,7 @@ format-underline = ${colors.primary}
 type = internal/bspwm
 
 label-focused = %index%
-label-focused-background = #1C1A24 
+label-focused-background = #1F2332 
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 

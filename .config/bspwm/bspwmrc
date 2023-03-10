@@ -23,6 +23,7 @@ bspc rule -a feh state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Zathura desktop='^5' follow=on state=tiled
+bspc config external_rules_command /home/monzer/.config/bspwm/scripts/floatemu
 
 setxkbmap -option grp:alt_shift_toggle ar,us &
 
