@@ -1,2 +1,2 @@
 # dotfiles
-My system dotfiles
+Ubuntu Dotfiles
